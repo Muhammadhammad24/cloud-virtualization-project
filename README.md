@@ -1,61 +1,82 @@
 # 🚀 Cloud & Virtualization Project
 
-## 📌 Overview
-This project demonstrates cloud infrastructure automation and containerization:
-- **Vagrant** to provision a **Kali Linux VM**
-- **Docker** to run an **Nginx web server**
-- **Port forwarding** to expose the web application on **localhost:8080**
+## 📌 Project Overview
+This project demonstrates a professional and practical approach to cloud infrastructure automation and containerization using modern tools:
+
+- **Vagrant** for provisioning a secure **Kali Linux Virtual Machine**
+- **Docker and Docker Compose** for containerizing an **Nginx web server**
+- **Port Forwarding** to access the web application easily at **localhost:8080**
+
+---
 
 ## 🛠️ Technologies Used
+
 - **VirtualBox**
 - **Vagrant**
 - **Docker & Docker Compose**
 - **Nginx Web Server**
 
+---
+
 ## 🔧 Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1️⃣ **Clone the Repository**
 ```bash
 git clone https://github.com/muhammadhammad24/cloud-virtualization-project.git
 cd cloud-virtualization-project
 ```
 
-### 2️⃣ Start the Virtual Machine
+### 2️⃣ **Launch the Virtual Machine**
 ```bash
 vagrant up
 vagrant ssh
 ```
 
-### 3️⃣ Start the Docker Containers
+### 3️⃣ **Run Docker Containers**
+Inside the VM, execute:
 ```bash
 cd /vagrant
 docker-compose up -d
 ```
 
-### 4️⃣ View the Project
-Open [http://127.0.0.1:8080](http://127.0.0.1:8080) in your web browser.
+### 4️⃣ **Access the Project**
+Open the URL in your web browser:
+
+👉 [http://127.0.0.1:8080](http://127.0.0.1:8080)
+
+---
 
 ## 📂 Project Structure
 ```
 cloud-virtualization-project/
-├── Vagrantfile           # Automates Kali Linux VM setup
-├── docker-compose.yml    # Manages Nginx inside Docker
-├── .gitignore            # Prevents unnecessary files in Git
-├── README.md             # Documentation
-└── src/                  # Web files served by Nginx
-    ├── index.html        # The website homepage
+├── Vagrantfile           # Kali Linux VM automated provisioning
+├── docker-compose.yml    # Docker Compose file for Nginx
+├── .gitignore            # Files excluded from Git
+├── README.md             # Project documentation
+└── src/                  # Source files for Nginx
+    ├── index.html        # Project homepage
     └── nginx.conf        # Nginx configuration
 ```
 
-## 🎯 Features
-- ✅ Automated VM provisioning with Vagrant
-- ✅ Web hosting using Nginx in Docker
-- ✅ Professional README documentation
-- ✅ Easy-to-follow GitHub-ready structure
+---
 
-## 📌 Author
+## 🎯 Key Features
+- ✅ **Automated VM provisioning** using Vagrant
+- ✅ **Efficient web hosting** with Nginx in Docker containers
+- ✅ Clear, detailed, and professional **documentation**
+- ✅ Intuitive and well-organized **GitHub repository structure**
+
+---
+
+## 👨‍💻 Author
+
 **Muhammad Hammad**
 
-## 📌 License
-**MIT**
+- [🌐 LinkedIn](https://linkedin.com/in/mhammad24)
+- [🚀 GitHub](https://github.com/Muhammadhammad24)
 
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
