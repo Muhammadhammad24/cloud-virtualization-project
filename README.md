@@ -1,4 +1,4 @@
-# 🚀 Cloud & Virtualization Project
+# Cloud & Virtualization Project
 
 ## 📌 Project Overview
 This project demonstrates a professional and practical approach to cloud infrastructure automation and containerization using modern tools:
