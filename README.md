@@ -13,11 +13,14 @@ This project showcases practical skills in cloud infrastructure automation, virt
 - **Security & Isolation**: Leveraging virtualization for isolated and secure testing environments, aligned with enterprise IT security standards.
 
 ## 🛠️ Technologies Used
-- ✅ **VirtualBox** – Hypervisor
-- ✅ **Vagrant** – Infrastructure as Code (IaC)
-- ✅ **Docker & Docker Compose** – Container Management
-- ✅ **Nginx** – Web Server
-- ✅ **Git & GitHub** – Version Control & Documentation
+- ✅ **VirtualBox** (Hypervisor for virtualization)
+- ✅ **Vagrant** (Infrastructure as Code for VM provisioning)
+- ✅ **Docker & Docker Compose** (Containerization)
+- ✅ **Nginx** (Web Server)
+- ✅ **Terraform** (Cloud Infrastructure Automation)
+- ✅ **AWS & Azure Cloud Platforms**
+- ✅ **PowerShell** (Automation scripting)
+- ✅ **Git & GitHub** (Version control)
 
 ## 🔧 Setup Instructions
 
@@ -69,6 +72,11 @@ cloud-virtualization-project/
 - **Professional Documentation**
   - *Challenge*: Structuring detailed, enterprise-ready documentation.
   - *Solution*: Crafted clear, structured setup instructions, outlined practical use-cases, and detailed technologies used, aligning closely with industry expectations.
+
+## 🌐 Additional Cloud Automation Skills Gained
+- Automated cloud deployments using Terraform and AWS CloudFormation.
+- Configured Azure Active Directory (AAD) user and group management via PowerShell scripts.
+- Built scalable VM deployment scripts that follow cloud security best practices.
 
 ## 🎖️ Achievements
 - Successfully automated virtual machine and container deployment.
