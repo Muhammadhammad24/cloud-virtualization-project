@@ -1,0 +1,7 @@
+.vagrant/
+.DS_Store
+*.log
+*.swp
+__pycache__/
+*.vdi
+*.iso
